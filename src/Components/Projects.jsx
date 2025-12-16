@@ -8,11 +8,7 @@ const projects = [
       "Production-Grade IoT Environmental Monitoring Platform with AWS & ML",
     description:
       "Real-time IoT air quality monitoring system with automated data pipelines, ML predictions, and interactive dashboards.",
-    images: [
-      "/Projects/project1/project1.png",
-      "/Projects/project1/project1_2.png",
-      // "/Projects/project1/project1_3.png",
-    ],
+    images: ["/Projects/project1/project1.png"],
     tags: [
       "AWS",
       "Apache Airflow",
