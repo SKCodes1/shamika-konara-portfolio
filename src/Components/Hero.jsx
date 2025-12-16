@@ -3,7 +3,10 @@ import { Typewriter } from "react-simple-typewriter";
 
 export const Hero = () => {
   return (
-    <section id="hero" className="relative min-h-screen flex items-center px-4">
+    <section
+      id="hero"
+      className="relative min-h-screen flex items-center px-4 pt-28 md:pt-0"
+    >
       <div className="container mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* LEFT CONTENT */}
         <div className="space-y-6 text-center md:text-left">
@@ -11,7 +14,6 @@ export const Hero = () => {
             Hi, I&apos;m <span className="text-primary">Shamika</span>{" "}
             <span className="text-gradient">Konara</span>
           </h1>
-
           {/* TYPEWRITER ROLES */}
           <p className="text-2xl md:text-3xl font-semibold text-primary">
             <Typewriter
