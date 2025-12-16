@@ -3,11 +3,8 @@ import { Typewriter } from "react-simple-typewriter";
 
 export const Hero = () => {
   return (
-    <section
-      id="hero"
-      className="relative min-h-screen flex items-center px-4 pt-28 md:pt-0"
-    >
-      <div className="container mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <section id="hero" className="relative min-h-screen px-4 pt-28 md:pt-0">
+      <div className="container mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-12 items-center md:min-h-screen">
         {/* LEFT CONTENT */}
         <div className="space-y-6 text-center md:text-left">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
