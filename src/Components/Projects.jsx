@@ -1,5 +1,5 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
-import ImageCarousel from "@/components/ImageCarousel";
+import ImageCarousel from "@/Components/ImageCarousel";
 
 const projects = [
   {
