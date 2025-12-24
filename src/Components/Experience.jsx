@@ -1,29 +1,9 @@
-// src/components/Experience.jsx
-// export const Experience = () => {
-//   //function Experience() {
-//   return (
-//     <section id="experience" className="py-20 px-10 text-center">
-//       <h2
-//         className="text-4xl font-bold mb-10
-//         animate-fade-in text-primary"
-//       >
-//         Experience
-//       </h2>
-//       <p className="text-gray-300 max-w-2xl mx-auto">
-//         {/* Worked on multiple tech projects and internships, focusing on web
-//         development and AI. */}
-//       </p>
-//     </section>
-//   );
-// };
-
-//export default Experience;
 import { Briefcase, Calendar, CheckCircle } from "lucide-react";
 
 const experienceData = [
   {
     role: "Data Analyst Intern",
-    company: "—", // optional (add company name if needed)
+    company: "MAS Linea Aqua",
     period: "Oct 2024 – Apr 2025",
     highlights: [
       "Built 15+ advanced Power BI dashboards including PDCA Trigger, KPI Monitoring, Cost of Quality, and Checker EPF dashboards to support data-driven decision making.",
@@ -74,7 +54,9 @@ export const Experience = () => {
                 <div>
                   <h3 className="text-2xl font-semibold">{exp.role}</h3>
                   {exp.company && (
-                    <p className="text-sm opacity-70">{exp.company}</p>
+                    <p className="text-xl font-semibold opacity-70">
+                      {exp.company}
+                    </p>
                   )}
                 </div>
               </div>
